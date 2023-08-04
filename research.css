@@ -31,14 +31,15 @@ section {
 .image img {
     max-width: 50%;
     height: auto;
+    margin-right: 20px; /* Add some margin between image and text */
 }
 
-@media (max-width: 768px) {
-    .scroll-section {
-        flex-direction: column;
-    }
-
-    .image img {
-        max-width: 100%;
-    }
+.text {
+    flex-grow: 1;
 }
+
+h1, h2 {
+    text-align: center;
+}
+
+@media
